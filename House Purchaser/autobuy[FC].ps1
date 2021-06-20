@@ -8,7 +8,7 @@ for ($i = 0; $i -lt 50000; $i++) {
     $wshell.SendKeys('.')
     Start-Sleep -milliseconds 225
     $wshell.SendKeys('.')
-    Start-Sleep -milliseconds 175
+    Start-Sleep -milliseconds 275
     $wshell.SendKeys('\')
     Start-Sleep -milliseconds 175
     $wshell.SendKeys('.')

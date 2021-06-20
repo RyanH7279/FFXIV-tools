@@ -6,11 +6,11 @@ for ($i = 0; $i -lt 50000; $i++) {
     $wshell.SendKeys('.')
     Start-Sleep -milliseconds 100
     $wshell.SendKeys('.')
-    Start-Sleep -milliseconds 225
+    Start-Sleep -milliseconds 400
     $wshell.SendKeys('.')
-    Start-Sleep -milliseconds 275
+    Start-Sleep -milliseconds 200
     $wshell.SendKeys('\')
-    Start-Sleep -milliseconds 175
+    Start-Sleep -milliseconds 275
     $wshell.SendKeys('.')
     Start-Sleep -milliseconds 375
     $wshell.SendKeys(',')
